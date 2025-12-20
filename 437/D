@@ -1,0 +1,9 @@
+N, M = map(int, input().split())
+A = list(map(int,input().split()))
+B = list(map(int, input().split()))
+total = 0
+
+for elt in [(a,b) for a in A for b in B]:
+    total += abs(elt[0] - elt[1])
+
+print(total % 998244353)

@@ -1,0 +1,13 @@
+T = int(input())
+for case in range(T):
+    N = int(input())
+    reindeers = []
+    total_P = 0
+    min_W = 0
+    for reindeer in range(N):
+        line = list(map(int, input().split()))
+        reindeers.append((line[0], line[1]))
+    
+for reindeer in sorted(reindeers):
+    print(reindeer)
+#Not a clue on finding max amount

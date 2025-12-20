@@ -4,7 +4,7 @@ intPairs  = []
 l = 1
 r = 1
 
-pinput.sort()
+#pinput.sort()
 
 for i in range(len(pinput)):
     while r <= len(pinput):
@@ -23,5 +23,5 @@ for elt in intPairs:
     ar = 0
     for i in range(elt[1]):
         ar += pinput[i]
-        print(elt, pinput[i])
+        print(elt, ar)
 print(intPairs)
