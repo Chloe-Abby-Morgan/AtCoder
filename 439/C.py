@@ -10,6 +10,8 @@ a = sorted(a)
 
 if n != 0:
     print(len(a))
+    stra = [str(n) for n in a]
+    strb = list(map(str, a))
     print(" ".join(a))
 else:
     print(n)
