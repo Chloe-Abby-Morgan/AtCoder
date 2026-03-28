@@ -30,6 +30,6 @@ def task(Ss, Tt, count):
                         Ss.insert(ind, "A")
                         break
     print(Ss, Tt)
-    return task(Ss[sStart], Tt[tStart], count)
+    return task(Ss[sStart:], Tt[tStart:], count)
 
 print(task(S, T, 0))
