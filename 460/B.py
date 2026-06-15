@@ -13,7 +13,7 @@ for i in range(T):
 
 for i in range(T):
     d = math.sqrt(abs(X[i]-x[i])**2 + abs(Y[i]-y[i])**2)
-    if abs(R[i]-r[i]) <= d < r[i]+R[i]:
+    if abs(R[i]-r[i]) <= d <= r[i]+R[i]:
         print("Yes")
     else:
         print("No")
